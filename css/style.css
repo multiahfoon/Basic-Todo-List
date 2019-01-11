@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+main > div {
+    display: grid;
+    grid-template-rows: auto;
+}
+main > div > header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: #2980b9;
+    color: #f1f1f1;
+}
+
+main > div > header > h1 {
+    font-weight: 100;
+}
+
+main > div > header > button {
+    padding: 0px 12px;
+    font-size: 30px;
+    background-color: #2980b9;
+    color: #f1f1f1;
+}
+
+main > div > input {
+    background-color: #f1f1f1;
+    padding: 10px
+}
+ul > li {
+    padding: 8px;
+}
+ul > li:nth-child(even) {
+    background-color: #f1f1f1;
+}
